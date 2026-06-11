@@ -1,24 +1,3 @@
-# import random
-# import string
-#
-# characters = string.ascii_uppercase + string.digits
-#
-# while True:
-#     choice = input("Press Enter for a code (q to quit): ")
-#
-#     if choice.lower() == "q":
-#         break
-#
-#     code = (
-#         "".join(random.choices(characters, k=2)) + "-" +
-#         "".join(random.choices(characters, k=2)) + "-" +
-#         "".join(random.choices(characters, k=2)) + "-" +
-#         "".join(random.choices(characters, k=4))
-#     )
-#
-#     print(code)
-#
-
 import random
 import string
 
